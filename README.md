@@ -2,6 +2,7 @@
 
 # Setup with docker
 
+##First set the mongo db host address in the myserver.py file entry client = MongoClient('10.22.196.108', 27017)
 ## Build docker images
 ```
 docker build --tag senz/switch .
