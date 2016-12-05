@@ -352,7 +352,7 @@ def main():
 
     #Create connection to the Mongo DB
     try:
-        client = MongoClient('192.168.22.171', 27017)
+        client = MongoClient('10.22.196.108', 27017)
         #Creating the database for the server
         db = client[serverName]
         collection = db['users']

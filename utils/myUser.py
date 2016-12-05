@@ -60,7 +60,7 @@ class myUser:
           return 'REGISTERED'
 
        # find user with same username
-       doc=self.database.find_one({"name":name})
+       doc=self.database.find_one({"name":name, "pubkey":""})
        if(doc):
           #if user name is already taken
           #return 'FAIL'
